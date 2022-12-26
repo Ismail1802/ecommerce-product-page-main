@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body class="body">
+    <header>
+      <div class="ayda_header_div">
+        <img id="menu" src="./images/icon-menu.svg" alt="" />
+        <img id="logo" src="./images/logo.svg" alt="" />
+      </div>
+      <nav class="">
+        <img id="close" src="./images/icon-close.svg" alt="" />
+        <ul>
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <div class="havecart">
+        <div class="cart-number"></div>
+        <img class="cart" src="./images/icon-cart.svg" alt="" />
+        <img id="avatar" src="./images/image-avatar.png" alt="" />
+      </div>
+      <div class="modal">
+        <h4>Cart</h4>
+        <hr />
+        <h3 class="empty">Your cart is empty!</h3>
+        <div class="gear">
+          <div class="modal_text">
+            <img
+              class="thumb"
+              src="./images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <div class="thumb-div">
+              <div>
+                <p>Fall Limited Edition Sneakers</p>
+                <div>
+                  <p>
+                    $125.00 x <span class="quantity">3</span>
+                    <span class="jirniy">$375.00</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img class="delete" src="./images/icon-delete.svg" alt="" />
+            </div>
+          </div>
+          <div class="button-div">
+            <button class="checkout">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="h-hr">
+      <hr />
+    </div>
+    <main>
+      <article class="image-product">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">
+            &#8678;
+          </button>
+          <button class="carousel-button next" data-carousel-button="next">
+            &#8680;
+          </button>
+          <div class="main-image">
+            <img id="main-img" src="./images/image-product-1.jpg" alt="" />
+          </div>
+          <ul data-slides>
+            <li class="slide mama" data-active>
+              <img src="./images/image-product-1.jpg" alt="" />
+            </li>
+            <li class="slide">
+              <img src="./images/image-product-2.jpg" alt="" />
+            </li>
+            <li class="slide">
+              <img src="./images/image-product-3.jpg" alt="" />
+            </li>
+            <li class="slide">
+              <img src="./images/image-product-4.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </article>
+      <div class="unknownable">
+        <article class="n2">
+          <h3>Sneaker Company</h3>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+        </article>
+        <article class="n1">
+          <div class="pricing">
+            <h1>$125.00</h1>
+            <h3 class="nodiscount">50%</h3>
+          </div>
+          <div class="crossed-div">
+            <h3 class="crossed">$250.00</h3>
+          </div>
+        </article>
+        <section>
+          <div>
+            <div id="minus"><img src="./images/icon-minus.svg" alt="" /></div>
+            <div id="null">0</div>
+            <div id="plus"><img src="./images/icon-plus.svg" alt="" /></div>
+          </div>
+          <button id="btn">
+            <img src="./images/whitecart.svg" alt="" /> Add to cart
+          </button>
+        </section>
+      </div>
+      <div class="aside">
+        <article class="image-product modalchik">
+          <img class="closeblyat" src="./images/icon-close.svg" alt="" />
+          <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">
+              &#8678;
+            </button>
+            <button class="carousel-button next" data-carousel-button="next">
+              &#8680;
+            </button>
+            <div class="main-image">
+              <img id="mainI" src="./images/image-product-1.jpg" alt="" />
+            </div>
+            <ul data-slides>
+              <li class="slide mama" data-active>
+                <img src="./images/image-product-1.jpg" alt="" />
+              </li>
+              <li class="slide">
+                <img src="./images/image-product-2.jpg" alt="" />
+              </li>
+              <li class="slide">
+                <img src="./images/image-product-3.jpg" alt="" />
+              </li>
+              <li class="slide">
+                <img src="./images/image-product-4.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
