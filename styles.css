@@ -356,8 +356,7 @@ nav ul li {
   main {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 75vh;
+    margin-top: 5rem;
     padding: 0 15rem;
     margin-bottom: 0;
   }
